@@ -83,7 +83,7 @@ const Result = () => {
         </Desc>
         <ButtonGroup>
           <Button onClick={handleClickButton}>테스트 다시 실행하기</Button>
-          <KakaoShareButton />
+          <KakaoShareButton data={resultData} />
         </ButtonGroup>
       </Contents>
     </Wrapper>
