@@ -3,7 +3,7 @@ import { useNavigate, useSearchParams } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "react-bootstrap";
 import { ResultData } from "../assets/resultdata";
-import KakaoShareButton from "../components/kakaoShareButton";
+import KakaoShareButton from "../components/KakaoShareButton";
 
 const Wrapper = styled.div`
   display: flex;
