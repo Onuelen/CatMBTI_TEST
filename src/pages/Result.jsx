@@ -45,6 +45,9 @@ const Desc = styled.div`
   font-size: 24px;
   text-align: center;
   line-height: 1.4;
+  background: crimson;
+  padding: 8px 14px;
+  border-radius: 8px;
 `;
 
 const Result = () => {
@@ -69,7 +72,7 @@ const Result = () => {
           <img className="rounded-circle" src={resultData.image} />
         </LogoImg>
         <Desc>
-          예비집사님과 찰떡궁합인 고양이는 <br /> {resultData.best}형
+          예비집사님과 찰떡궁합인 고양이는 <br /> {resultData.best}형{" "}
           {resultData.name}
         </Desc>
         <Button onClick={handleClickButton}>테스트 다시 실행하기</Button>
